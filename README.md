@@ -96,3 +96,36 @@ var result = /Welcome, The current security code is: (.*) ... good luck!/g.exec(
 
 document.location = "http://www.thisislegal.com/challenge/p1&code=" +result[1];
 ```
+#Bonus challenge 1
+afficher la source (CTRL+U)
+```
+<script type="text/javascript">
+
+var pass = "donethebonus";
+  var answer = "";
+
+answer = prompt("Enter the password: ", "", "Password");
+
+if (answer == pass)
+{
+  alert("Password Correct, Well Done :)");
+  window.location = pass;
+}
+
+else if (answer != pass)
+{
+  alert("Password Incorrect!");
+  alert("Access Denied");
+  window.location = "bonusagain";
+}
+
+</script>
+```
+#Bonus challenge 2
+le champ password est désactivé.
+le réactiver avec l'inpecter
+taper 'hello' et valider
+
+#Bonus challenge 3
+utiliser tamper data, changer le user agent en "Thisislegal Browser v1"
+
