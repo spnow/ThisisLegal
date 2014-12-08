@@ -96,6 +96,11 @@ var result = /Welcome, The current security code is: (.*) ... good luck!/g.exec(
 
 document.location = "http://www.thisislegal.com/challenge/p1&code=" +result[1];
 ```
+
+#Realistic Challenge 1
+utiliser tamper data, cliquer sur le bouton "buy now".
+changer la valeur de "amount".
+
 #Bonus challenge 1
 afficher la source (CTRL+U)
 ```
