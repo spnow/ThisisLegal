@@ -85,3 +85,14 @@ décompilation avec http://www.showmycode.com/
 if (password == "flashking") { txt3var = "Correct! enter into password box"; } else { txt3var = "Wrong :( Try Again"; }
 ```
 
+#Programming Challenge 1
+dans un scratchpad
+```
+xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET","http://www.thisislegal.com/rand.php",false);
+xmlhttp.send();
+  
+var result = /Welcome, The current security code is: (.*) ... good luck!/g.exec(xmlhttp.responseText);
+
+document.location = "http://www.thisislegal.com/challenge/p1&code=" +result[1];
+```
