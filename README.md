@@ -149,3 +149,10 @@ password : ' or '1'='1
 ==> login en tant que us3r
 rafraichir la page => login en tant qu'admin ???
 TODO
+
+#Encryption Challenge 1
+As a young boy, I was taught in high school that hacking was cool. http://urldecode.org
+
+Back in my day, I would probe by hand. Now you can get commercial software that does the job for you. http://www.nickciske.com/tools/binary.php
+
+Hack the planet (caesar crypt shift=5) http://crypo.in.ua/tools/eng_caesar.php
