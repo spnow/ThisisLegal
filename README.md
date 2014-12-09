@@ -134,3 +134,18 @@ taper 'hello' et valider
 #Bonus challenge 3
 utiliser tamper data, changer le user agent en "Thisislegal Browser v1"
 
+#Bonus Challenge 7
+AZPR + attaque par dictionnaire => mot de passe = beefy.
+advanced archive password recovery + attaque par dictionnaire (http://www.morewords.com/enable2k.txt) sur le .rar => 
+TODO
+
+#SQL Challenge 1
+login : administrator
+password : ' or '1'='1
+
+#SQL Challenge 2
+login : admin 
+password : ' or '1'='1
+==> login en tant que us3r
+rafraichir la page => login en tant qu'admin ???
+TODO
