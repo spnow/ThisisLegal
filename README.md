@@ -134,6 +134,12 @@ taper 'hello' et valider
 #Bonus challenge 3
 utiliser tamper data, changer le user agent en "Thisislegal Browser v1"
 
+#Bonus Challenge 6
+afficher le contenu de la variable "nls".
+==> christian*classical*
+user = christian
+password = classical
+
 #Bonus Challenge 7
 AZPR + attaque par dictionnaire => mot de passe = beefy.
 rar password unlocker + attaque par dictionnaire  sur le .rar => clown
