@@ -156,3 +156,47 @@ As a young boy, I was taught in high school that hacking was cool. http://urldec
 Back in my day, I would probe by hand. Now you can get commercial software that does the job for you. http://www.nickciske.com/tools/binary.php
 
 Hack the planet (caesar crypt shift=5) http://crypo.in.ua/tools/eng_caesar.php
+
+#User Challenge 1
+```
+function pw (form)
+{
+
+   var d1, d2, d3;
+
+if (navigator.appName == "Netscape"){
+   d1= getStyle('content', 'background-color'); 
+} else {
+   d1= getStyle('content', 'backgroundColor'); 
+}
+
+	 d2=form.Name.value;
+	 d3=form.Password.value;
+
+  if (d2==d1.length) { 
+    if (d3==d1) {
+      window.open ("../" + d1.substr(1, 10), "_self")
+    } else { 
+      alert("Muhaha! Wrong!")
+    } 
+  } else { 
+    alert("Muhaha! Wrong!") 
+  } 
+}
+```
+dans un scratchpad :
+```
+if (navigator.appName == "Netscape"){
+   d1= getStyle('content', 'background-color'); 
+} else {
+   d1= getStyle('content', 'backgroundColor'); 
+}
+
+alert(d1); // ==> #000000
+alert(d1.length); // ==> 7
+```
+username = 7
+password = #000000
+
+#User Challenge 2
+Stegano. on prend chaque lettre en majuscules dans le texte => SAMBA
