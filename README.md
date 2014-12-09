@@ -136,8 +136,8 @@ utiliser tamper data, changer le user agent en "Thisislegal Browser v1"
 
 #Bonus Challenge 7
 AZPR + attaque par dictionnaire => mot de passe = beefy.
-advanced archive password recovery + attaque par dictionnaire (http://www.morewords.com/enable2k.txt) sur le .rar => 
-TODO
+rar password unlocker + attaque par dictionnaire  sur le .rar => clown
+ouvrir a.txt => rodent
 
 #SQL Challenge 1
 login : administrator
