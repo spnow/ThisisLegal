@@ -145,6 +145,11 @@ AZPR + attaque par dictionnaire => mot de passe = beefy.
 rar password unlocker + attaque par dictionnaire  sur le .rar => clown
 ouvrir a.txt => rodent
 
+#Bonus Challenge 10
+ouvrir les fichiers avec ophcrack.
+récupérer les hash NTLM de l'utilisateur Administrator
+rainbow table => ATMIY@MRUT
+
 #SQL Challenge 1
 login : administrator
 password : ' or '1'='1
