@@ -134,6 +134,14 @@ taper 'hello' et valider
 #Bonus challenge 3
 utiliser tamper data, changer le user agent en "Thisislegal Browser v1"
 
+#Bonus Challenge 4
+regarder les différence de la partie <div id="content"> par rapport à un autre challenge.
+on trouve :
+```
+<img border="0" src="../images/spacer.bmp" width="1" height="1" alt="padding" />
+```
+récupérer l'image, l'ouvrir dan Gimp et adapter le contraste ==> "The password is bitmap38 :)"
+
 #Bonus Challenge 5
 télécharger l'image challenge.JPG
 rechercher l'entête d'une archive RAR  : 0x 52 61 72 21 1A 07 00
