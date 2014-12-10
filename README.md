@@ -214,5 +214,9 @@ alert(d1.length); // ==> 7
 username = 7
 password = #000000
 
+#Application Challenge 1
+L'application vérifie qu'elle est appelée de C:\app\thisislegal\app2.exe
+==> correct! the password is: nopatch
+
 #User Challenge 2
 Stegano. on prend chaque lettre en majuscules dans le texte => SAMBA
