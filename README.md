@@ -158,6 +158,13 @@ entrer un mot de passe quelconque.
 l'url est redirigée de http://www.thisislegal.com/challenge/b8/ vers http://www.thisislegal.com/l/challenge/b8/
 aller dans http://www.thisislegal.com/l/ et afficher form.pwd => gadgit7
 
+#Bonus Challenge 9
+416301018221630341
+Pairs : 41 63 01 01 82 21 63 03 41
+Switch Digit : 14 36 10 10 28 12 36 30 14
+Division Same Amount : diviseur commun entre 10 12 et 14 = 2 => 07 18 05 05 14 06 18 15 07
+Alphabet : greenfrog
+
 #Bonus Challenge 10
 ouvrir les fichiers avec ophcrack.
 récupérer les hash NTLM de l'utilisateur Administrator
