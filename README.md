@@ -145,6 +145,11 @@ AZPR + attaque par dictionnaire => mot de passe = beefy.
 rar password unlocker + attaque par dictionnaire  sur le .rar => clown
 ouvrir a.txt => rodent
 
+#Bonus Challenge 8
+entrer un mot de passe quelconque.
+l'url est redirigée de http://www.thisislegal.com/challenge/b8/ vers http://www.thisislegal.com/l/challenge/b8/
+aller dans http://www.thisislegal.com/l/ et afficher form.pwd => gadgit7
+
 #Bonus Challenge 10
 ouvrir les fichiers avec ophcrack.
 récupérer les hash NTLM de l'utilisateur Administrator
