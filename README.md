@@ -134,6 +134,14 @@ taper 'hello' et valider
 #Bonus challenge 3
 utiliser tamper data, changer le user agent en "Thisislegal Browser v1"
 
+#Bonus Challenge 5
+télécharger l'image challenge.JPG
+rechercher l'entête d'une archive RAR  : 0x 52 61 72 21 1A 07 00
+cf. http://www.forensicswiki.org/wiki/RAR
+supprimer tout ce qu'il y a avant l'entête avec hexedit ou équivalent
+
+ouvrir l'archive et afficher l'image : "Well done! The password is imgrar :-)"
+
 #Bonus Challenge 6
 afficher le contenu de la variable "nls".
 ==> christian*classical*
