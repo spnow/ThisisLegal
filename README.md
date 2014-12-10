@@ -236,3 +236,16 @@ ouvrir http://www.thisislegal.com/appa3chal/ap/vr.txt ==> r3dc0bra
 
 #User Challenge 2
 Stegano. on prend chaque lettre en majuscules dans le texte => SAMBA
+
+#User Challenge 3
+ouvrir l'image avec gimp.
+inverser les couleurs et identifier les drapeaux :
+Italie
+Hongrie
+Bulgarie
+Lituanie
+Germany
+Belgium
+roumanie
+
+==> ihblgbr
