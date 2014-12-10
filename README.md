@@ -218,5 +218,21 @@ password = #000000
 L'application vérifie qu'elle est appelée de C:\app\thisislegal\app2.exe
 ==> correct! the password is: nopatch
 
+#Application Challenge 2
+utilisation de winable (https://www.raymond.cc/blog/how-to-enable-and-access-disabled-grayed-out-buttons-windows-and-checkboxes/)
+==> servent33
+
+#Application Challenge 3
+ouvrir avec ollydbg, search for -> all referenced text strings
+```
+Text string=UNICODE "connecting, please wait..."
+Text string=UNICODE "appa3chal/ap/vr.txt"
+Text string=UNICODE "/application"
+Text string=UNICODE "http://www.thisislegal.com/"
+Text string=UNICODE "Correct! Now enter it into the site (unlucky if you patched this)"
+Text string=UNICODE "Incorrect, try again"
+```
+ouvrir http://www.thisislegal.com/appa3chal/ap/vr.txt ==> r3dc0bra
+
 #User Challenge 2
 Stegano. on prend chaque lettre en majuscules dans le texte => SAMBA
