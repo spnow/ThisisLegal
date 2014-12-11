@@ -307,6 +307,48 @@ Back in my day, I would probe by hand. Now you can get commercial software that 
 
 Hack the planet (caesar crypt shift=5) http://crypo.in.ua/tools/eng_caesar.php
 
+#Encryption Challenge 2
+```
+public class enc2 {
+
+	public static void main(String[] args) {
+		String message = "Rwfwcvttw ufriifyg dws jjbhwooqm ezu iwsh";
+		String key = "enc";
+		
+		System.out.println(decode(key, message));
+	}
+	
+	private static String decode(String key, String message) {
+		StringBuilder sb = new StringBuilder(message.length());
+		
+		// compute key
+		int[] key2 = new int[key.length()];
+		for (int i=0;i<key.length();i++) {
+			key2[i] = key.charAt(i)-96;
+		}
+		
+		//decode
+		int offset = 0;
+		for (int i=0 ; i+offset<message.length() ; i++) {
+			if (message.charAt(i+offset) == ' ') {
+				offset++;
+				sb.append(' ');
+			}
+			char c = (char) (message.charAt(i+offset)-key2[i%3]);
+			if (c<97 && message.charAt(i+offset) >= 97) {
+				c = (char) (c-6);
+			}
+			sb.append(c);
+		}
+		
+		return sb.toString();
+	}
+	
+}
+```
+==> MicrOsoft pRodUctS are geNerallY bug free
+en utilisant la casse du message d'origine ==> Microsoft products are generally bug free
+
 #User Challenge 1
 ```
 function pw (form)
