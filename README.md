@@ -161,6 +161,13 @@ else if (answer != pass)
 
 </script>
 ```
+
+#Realistic Challenge 3
+Aller dans l'ajout de lien. utiliser tamper data.
+dans le champ T1 : <script>alert('lol');</script>
+dans le champ T2 : <script>alert('lol');</script>
+dans le champ LinkView : 0
+
 #Bonus challenge 2
 le champ password est désactivé.
 le réactiver avec l'inpecter
