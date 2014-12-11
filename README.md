@@ -349,6 +349,21 @@ public class enc2 {
 ==> MicrOsoft pRodUctS are geNerallY bug free
 en utilisant la casse du message d'origine ==> Microsoft products are generally bug free
 
+#Encryption Challenge 3
+ce n'est pas du bifid (il ne faut pas séparer la chaine en 2), contrairement à l'indice.
+on crée un Polybius square aec un j mais sans z :
+ 12345
+1abcde
+2fghij
+3klmno
+4pqrst
+5uvwxy
+
+543251 4243545134435154? 3551 113451 435354 42435451345144545141 4243 4254 
+décodage : 
+t  h  e  i  n  t  e  r  n  e  t  w  e  a  r  e  n  o  t  i  n  t  e  r  e  s  t  e  d  i  n  i  t
+54 32 51 42 43 54 51 34 43 51 54 35 51 11 34 51 43 53 54 42 43 54 51 34 51 44 54 51 41 42 43 42 54
+=> the internet? we are not interested in it
 #User Challenge 1
 ```
 function pw (form)
