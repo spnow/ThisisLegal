@@ -367,6 +367,15 @@ décodage :
 t  h  e  i  n  t  e  r  n  e  t  w  e  a  r  e  n  o  t  i  n  t  e  r  e  s  t  e  d  i  n  i  t
 54 32 51 42 43 54 51 34 43 51 54 35 51 11 34 51 43 53 54 42 43 54 51 34 51 44 54 51 41 42 43 42 54
 => the internet? we are not interested in it
+
+#Encryption Challenge 4
+on sépare la chaine en deux
+Wl,ti a  i nxetd
+el hswsabtuepce.
+
+et on lit caractère par caractère de haut en bas, de gauche à droite.
+=> Well this was a bit unexpected.
+
 #User Challenge 1
 ```
 function pw (form)
