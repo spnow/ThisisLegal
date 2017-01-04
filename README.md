@@ -370,10 +370,12 @@ t  h  e  i  n  t  e  r  n  e  t  w  e  a  r  e  n  o  t  i  n  t  e  r  e  s  t 
 
 #Encryption Challenge 4
 on sépare la chaine en deux
+```
 Wl,ti a  i nxetd
 el hswsabtuepce.
-
+```
 et on lit caractère par caractère de haut en bas, de gauche à droite.
+
 => Well this was a bit unexpected.
 
 #User Challenge 1
